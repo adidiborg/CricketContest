@@ -1,0 +1,28 @@
+Team ID : IITMBSC02237
+Team Member : Aditya Borgaonkar
+
+Algorithm -
+
+My prediction algorithm is using 5 Filter methods to get average scores. Following are the filters -
+
+I have included all_matches_under6.csv file which has all matches data till 6 overs.
+All the below filters have innings parameter included.
+
+Filter 1 - Venue Scores
+		   Calculating the average scores at the Venue
+
+Filter 2 - Batting Team vs Bowling Team
+		   Average of Batting Team scores runs against Bowling Team 
+
+Filter 3 - Batting Team vs Bowling Team at the Venue
+		   Average of Batting Team scores runs against Bowling Team at the venue
+
+Filter 4 - Batsmen scores at the Venue
+		   Average combined scores of all batsmen playing today at the venue
+		   average = average(batsmen 1) + average(batsmen 2) ++ average(batsmen n)
+
+Filter 5 - Bowler given runs at the Venue
+		   Average runs given by all bowlers playing today at the venue
+		   average = average(bowler 1) + average(bowler 2) ++ average(bowler n)
+
+prediction = average of Filters 1 to 5
